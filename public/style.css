@@ -1,0 +1,154 @@
+body{
+    background-color: darkgray;
+}
+@media (min-width: 960px){
+    #EText{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 850px;
+        width: 1400px;
+        resize: none;
+        outline: none;
+        border-color: rgb(15, 116, 150);
+        border-radius: 10px;
+        border-width: 5px;
+    }
+    #ESubject{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+    }
+    #toggleNewEmail{
+        position: absolute;
+        top: 60px;
+        right: 120px;
+        height: 20px;
+        width: 20px;
+        background-color: red;
+        border-style: solid;
+    }
+    #EMail{
+        position: absolute;
+        top: 60px;
+        right: 200px;
+    }
+    #Email2{
+        position: absolute;
+        top: 110px;
+        right: 200px;
+        visibility: hidden;
+    }
+    #Email3{
+        position: absolute;
+        top: 160px;
+        right: 200px;
+        visibility: hidden;
+    }
+    #newEmail{
+        position: absolute;
+        top: 110px;
+        right: 245px;
+    }
+    #btnESend{
+        position: absolute;
+        top: 160px;
+        right: 255px;
+    }
+    #fileName{
+        position: absolute;
+        top: 210px;
+        right: 200px;
+    }
+    #btnSave{
+        position: absolute; 
+        top: 260px;
+        right: 300px;
+    }
+}
+
+.inputDesign{
+    border-style: solid;
+    border-color: rgb(15, 116, 150);
+    border-radius: 10px;
+    outline: none;
+}
+.btnDesign{
+    border-style: solid;   
+    border-color: rgb(15, 116, 150);
+    border-radius: 10px;
+    height: 30px;
+}
+.btnDesign:hover{
+    border-style: solid;   
+    border-color: rgb(15, 116, 150);
+    border-radius: 10px;
+    height: 30px;
+    background-color: lightblue;
+}
+
+@media (max-width: 960px){
+    #EText{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 850px;
+        width: 600px;
+        resize: none;
+        outline: none;
+        border-color: rgb(15, 116, 150);
+        border-radius: 10px;
+        border-width: 5px;
+    }
+    #ESubject{
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+    #toggleNewEmail{
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        height: 20px;
+        width: 20px;
+        background-color: red;
+        border-style: solid;
+    }
+    #EMail{
+        position: absolute;
+        top: 60px;
+        right: 100px;
+    }
+    #Email2{
+        position: absolute;
+        top: 110px;
+        right: 100px;
+        visibility: hidden;
+    }
+    #Email3{
+        position: absolute;
+        top: 160px;
+        right: 100px;
+        visibility: hidden;
+    }
+    #newEmail{
+        position: absolute;
+        top: 110px;
+        right: 145px;
+    }
+    #btnESend{
+        position: absolute;
+        top: 160px;
+        right: 155px;
+    }
+    #fileName{
+        position: absolute;
+        top: 210px;
+        right: 100px;
+    }
+    #btnSave{
+        position: absolute;
+        top: 260px;
+        right: 200px;
+    }
+}
